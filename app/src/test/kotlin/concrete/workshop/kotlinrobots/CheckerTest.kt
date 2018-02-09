@@ -9,12 +9,12 @@ class CheckerTest {
 
     @Test
     fun whenAddTwoToTwo_shouldReturnFour() {
-        assertEquals(4, checker.sun(2, 2))
+        assertEquals(4, checker.sum(2, 2))
     }
 
     @Test
     fun whenAddTwoToFour_shouldReturnSix() {
-        assertEquals(6, checker.sun(2, 4))
+        assertEquals(6, checker.sum(2, 4))
     }
 
     @Test

@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
     fun onClick(view: View) {
         val text: String = if (areTextsIntegers())
-            "Sum total ${chekcer.sun(firstNumber.getTextAsInt(), secondNumber.getTextAsInt())}"
+            "Sum total ${chekcer.sum(firstNumber.getTextAsInt(), secondNumber.getTextAsInt())}"
         else
             "Ow, tá errado isso ai!"
         Snackbar.make(root, text, Snackbar.LENGTH_INDEFINITE).show()
